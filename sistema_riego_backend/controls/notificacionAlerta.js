@@ -11,7 +11,7 @@ class NotificacionAlerta {
             ph: null,
         };
 
-        this.esp32Ip = "http://192.168.101.27"; // Cambia a la IP del ESP32
+        this.esp32Ip = "http://192.168.101.10"; // Cambia a la IP del ESP32
         this.esp32Endpoint = `${this.esp32Ip}/datos`;
 
         this.transporter = nodemailer.createTransport({
